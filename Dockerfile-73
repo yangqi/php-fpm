@@ -3,7 +3,7 @@
 # Image Setup
 #--------------------------------------------------------------------------
 #
-FROM php:7.3.10-fpm-alpine
+FROM php:7.3.18-fpm-alpine
 
 MAINTAINER Qi Yang <i@yangqi.me>
 

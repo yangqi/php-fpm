@@ -31,6 +31,7 @@ RUN apk add --no-cache \
     && docker-php-ext-install zip \
     && docker-php-ext-configure gd \
     && docker-php-ext-install gd \
+    && docker-php-ext-install pcntl \
     && apk del \
     autoconf \
     g++ \
